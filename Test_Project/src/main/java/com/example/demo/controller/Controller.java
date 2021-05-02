@@ -11,4 +11,8 @@ public class Controller {
 		return "Test";
 	}
 	
+	@RequestMapping(value = "/test_1")
+	public String demo_1() {
+		return "Test_1";
+	}
 }
